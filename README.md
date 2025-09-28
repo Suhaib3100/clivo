@@ -1,7 +1,7 @@
 # 🧠 Clivo
 
 **Clivo** is the next-gen AI-powered development platform built for fullstack web, backend, and soon mobile app development. Designed for speed, scalability, and developer happiness — Clivo brings intelligence into every step of the build-deploy lifecycle.
-
+s
 ---
 
 ## 🚀 Key Features
