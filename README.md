@@ -1,49 +1,36 @@
-# 🧠 Clivo
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**Clivo** is the next-gen AI-powered development platform built for fullstack web, backend, and soon mobile app development. Designed for speed, scalability, and developer happiness — Clivo brings intelligence into every step of the build-deploy lifecycle.
-s
----
+## Getting Started
 
-## 🚀 Key Features
+First, run the development server:
 
-### ⚙️ Fullstack Web & Backend
-- **Next.js 14 (App Router)** with SSR & dynamic routing
-- **Tailwind CSS** for lightning-fast styling
-- **tRPC or REST API support** for end-to-end type safety
-- **AI Code Assist** — generate pages, routes, and backend logic instantly
-- **Supabase / PostgreSQL** with ORM (Prisma or Drizzle)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### 🤖 Built-In AI Capabilities
-- AI-generated components, endpoints & database models
-- Natural language code generation ("Build a blog page with auth")
-- Prompt-based backend API creation
-- AI refactor, test writing, and documentation suggestions
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### ☁️ Cloud & DevOps (Optional)
-- One-click Docker deploy (VPS/Render/Cloud)
-- CI/CD with GitHub Actions
-- Auto-scaling with optional Kubernetes support
-- Preview environments per PR
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### 📱 Coming Soon: Mobile App Support
-- Cross-platform (React Native + Expo)
-- Shared backend API logic
-- AI-generated mobile UIs
-- Unified CLI & dashboard for web/mobile
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 🛠️ Tech Stack
+To learn more about Next.js, take a look at the following resources:
 
-| Layer          | Tech                                          |
-|----------------|-----------------------------------------------|
-| **Frontend**   | Next.js 14, Tailwind CSS, TypeScript          |
-| **Backend**    | Node.js + tRPC or NestJS                      |
-| **AI Engine**  | OpenAI / Ollama / Claude APIs (via SDKs)      |
-| **Database**   | Supabase (PostgreSQL) + Prisma/Drizzle ORM    |
-| **Auth**       | Supabase Auth / Clerk / Auth.js               |
-| **Infra**      | Docker, NGINX, GitHub Actions, VPS/Render     |
-| **Mobile (soon)** | React Native, Expo, AI-based UI Generator |
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
