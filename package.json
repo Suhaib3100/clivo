@@ -8,9 +8,6 @@
     "start": "next start",
     "lint": "eslint"
   },
-  "prisma": {
-    "seed": "tsx prisma/seed.ts"
-  },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@prisma/client": "^6.16.2",
